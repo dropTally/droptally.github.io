@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1024 500" width="1024" height="500">
+  <!-- Pure Black Background Layer -->
+  <rect width="1024" height="500" fill="#000000"/>
+  
+  <!-- Centered App Icon Container -->
+  <g transform="translate(448, 70) scale(0.25)">
+    <!-- Minimalist Delivery Package Shape (White) -->
+    <path d="M140,210 L256,140 L372,210 L372,330 L256,400 L140,330 Z" 
+          fill="none" stroke="#FFFFFF" stroke-width="28" stroke-linejoin="round"/>
+    <!-- Inner Package Lines -->
+    <path d="M140,210 L256,280 L372,210 M256,280 L256,400" 
+          fill="none" stroke="#FFFFFF" stroke-width="24" stroke-linejoin="round"/>
+    <!-- The 'One-Tap' Tally Bubble Indicator -->
+    <circle cx="360" cy="152" r="56" fill="#000000" stroke="#FFFFFF" stroke-width="24"/>
+    <!-- Plus Sign Inside the Tally Bubble -->
+    <path d="M336,152 L384,152 M360,128 L360,176" 
+          stroke="#FFFFFF" stroke-width="16" stroke-linecap="round"/>
+  </g>
+
+  <!-- Clean, Stark Minimalist Store Typography Block -->
+  <text x="512" y="350" text-anchor="middle" font-family="sans-serif" font-size="42" font-weight="800" fill="#FFFFFF" letter-spacing="2">DROPTALLY</text>
+  <text x="512" y="405" text-anchor="middle" font-family="sans-serif" font-size="20" font-weight="400" fill="#A0A0A0" letter-spacing="0.5">The dead-simple delivery tracker.</text>
+</svg>
